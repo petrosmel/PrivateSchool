@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to modern education!</title>
+    <link rel="icon" type="image/png" href="img/favicon.ico" />
+    <link rel="stylesheet" href="css/browser.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <div class="header-logo">
+                <a href="/index.html"> <img src="../img/ps_logo.png" alt="Private School logo"
+                        style="max-width: 350px;" /></a>
+
+            </div>
+            <div class="header-menu">
+
+                <div class="header-secondarymenu">
+                    <table>
+                        <tr>
+                            <td>
+                                <a href="students.html">STUDENTS
+                                </a>
+                            </td>
+                            <td>
+                                <a href="courses.html">
+                                    COURSES
+                                </a>
+                            </td>
+                            <td>
+                                <a href="trainers.html">
+                                    TRAINERS
+                                </a>
+                            </td>
+                            <td>
+                                <a href="assigments.html">
+                                    ASSIGMENTS
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="header-mainmenu">
+                    <table>
+                        <tr>
+                            <td>
+                                <a href="index.html">HOME
+                                </a>
+                            </td>
+                            <td>
+                                <a href="study.html">STUDY
+                                </a>
+                            </td>
+                            <td>
+                                <a href="aboutus.html">ABOUT US
+                                </a>
+                            </td>
+                            <td>
+                                <a href="contact.html">
+                                    CONTACT
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+
+
+        <div class="main-container">
+            <div class="table-container">
+                <h1 style="text-align: center;color: rgb(90, 90, 90);">CB11 JAVA C# TIME</h1>
+                <h2 class="table-header">Course assigments</h2>
+                <table contenteditable="true">
+
+                    <tr contenteditable="false">
+                        <th>ID</th>
+                        <th>TITLE</th>
+                        <th>DESCRIPTION</th>
+                        <th>DATE OF SUBMISSION</th>
+                        <th>ORAL MARK</th>
+                        <th>TOTAL MARK</th>
+                        <th contenteditable="false"
+                            style=" border: 0px; background-color: transparent; border-right: 3px  rgb(150, 152, 155) solid;  border-TOP: 3px  rgb(150, 152, 155) solid;z-index: 10;">
+                            <div class="dropdown1">
+                                <button onclick="myFunction1()" class="dropbtn"
+                                    style="width: 150px; border-radius: 30px;">ADD NEW</button>
+                                <div id="myDropdown1" class="dropdown-content" style="margin-left: 160px;">
+
+
+                                    <form action="" style="padding: 20px;">
+                                        <h2>Add data to table</h2>
+                                        <hr style="color: purple;">
+                                        <label for="id">Data ID</label><br>
+                                        <input id="id" type="number" placeholder="type id here..." min="0"><br>
+                                        <label for="Title">Title</label><br>
+                                        <input id="Title" type="text" placeholder="type title here..."><br>
+                                        <label for="Stream">Description</label><br>
+                                        <input id="Stream" type="text" placeholder="type Description here..."><br>
+                                        <label for="Start">Submission</label><br>
+                                        <input id="Start" type="date"><br>
+                                        <label for="oral">Oral mark</label><br>
+                                        <input id="oral" type="number" min="0" max="100"><br>
+                                        <label for="total">Total mark</label><br>
+                                        <input id="total" type="number" min="0" max="100"><br>
+
+                                        <input id="add-data-button" type="submit" value="ADD DATA">
+                                    </form>
+
+                                </div>
+                            </div>
+                        </th>
+
+                    </tr>
+
+
+                    <tr>
+                        <td>1</td>
+                        <td>Individual project 1</td>
+                        <td>Kino game</td>
+                        <td>01-01-2020</td>
+                        <td>20</td>
+                        <td>100</td>
+                        <td contenteditable="false"
+                            style="border: 0px; background-color: transparent; border-right: 3px  rgb(150, 152, 155) solid;  border-bottom: 3px  rgb(150, 152, 155) solid;">
+                            <button class="table-button">UPDATE</button> <button class="table-button">DELETE</button>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Group project 1</td>
+                        <td>Web application</td>
+                        <td>01-01-2020</td>
+                        <td>20</td>
+                        <td>100</td>
+                        <td contenteditable="false"
+                            style="border: 0px; background-color: transparent; border-right: 3px  rgb(150, 152, 155) solid;  border-bottom: 3px  rgb(150, 152, 155) solid;">
+                            <button class="table-button">UPDATE</button> <button class="table-button">DELETE</button>
+                        </td>
+
+                    </tr>
+
+                </table>
+                <hr style="margin-top: 50px;">
+                <h2 class="table-header">Assosiated trainers</h2>
+
+                <table contenteditable="true">
+
+                    <tr contenteditable="false">
+                        <th>ID</th>
+                        <th>FIRSTNAME</th>
+                        <th>LASTNAME</th>
+                        <th>SUBJECT</th>
+                        <th contenteditable="false"
+                            style=" border: 0px; background-color: transparent; border-right: 3px  rgb(150, 152, 155) solid;  border-TOP: 3px  rgb(150, 152, 155) solid;z-index: 10;">
+                            <div class="dropdown">
+                                <button onclick="myFunction2()" class="dropbtn"
+                                    style="width: 150px; border-radius: 30px;">ADD NEW</button>
+                                <div id="myDropdown2" class="dropdown-content" style="margin-left: 160px;">
+
+                                    <h2>Add data to table</h2>
+                                    <hr style="color: purple;">
+                                    <form action="" style="padding: 20px;">
+                                        <label for="id2">Data ID</label>
+                                        <input id="id2" type="number" placeholder="type id here..." min="0">
+                                        <label for="Firstname2">Firstname</label>
+                                        <input id="Firstname2" type="text" placeholder="type firstname here...">
+                                        <label for="Lastname2">Lastname</label>
+                                        <input id="Lastname2" type="text" placeholder="type lastname here...">
+                                        <label for="Subject2">Subject</label>
+                                        <input id="Subject2" type="text" placeholder="type subject here...">
+                                        <input id="add-data-button2" type="submit" value="ADD DATA">
+                                    </form>
+
+                                </div>
+                            </div>
+                        </th>
+
+                    </tr>
+
+                    <tr>
+                        <td>1</td>
+                        <td>Panos</td>
+                        <td>Bozas</td>
+                        <td>MySQL</td>
+                        <td contenteditable="false"
+                            style="border: 0px; background-color: transparent; border-right: 3px  rgb(150, 152, 155) solid;  border-bottom: 3px  rgb(150, 152, 155) solid;">
+                            <button class="table-button">UPDATE</button> <button class="table-button">DELETE</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Giorgos</td>
+                        <td>Pasparakis</td>
+                        <td>Java</td>
+                        <td contenteditable="false"
+                            style="border: 0px; background-color: transparent; border-right: 3px  rgb(150, 152, 155) solid;  border-bottom: 3px  rgb(150, 152, 155) solid;">
+                            <button class="table-button">UPDATE</button> <button class="table-button">DELETE</button>
+                        </td>
+                    </tr>
+                </table>
+
+                <hr style="margin-top: 50px;">
+                <h2 class="table-header">Student enrollments</h2>
+
+                <table contenteditable="true">
+
+                    <tr contenteditable="false">
+                        <th>ID</th>
+                        <th>FIRSTNAME</th>
+                        <th>LASTNAME</th>
+                        <th contenteditable="false"
+                            style=" border: 0px; background-color: transparent; border-right: 3px  rgb(150, 152, 155) solid;  border-TOP: 3px  rgb(150, 152, 155) solid;z-index: 10;">
+                            <div class="dropdown">
+                                <button onclick="myFunction3()" class="dropbtn"
+                                    style="width: 150px; border-radius: 30px;">ADD NEW</button>
+                                <div id="myDropdown3" class="dropdown-content" style="margin-left: 160px;">
+
+                                    <h2>Add data to table</h2>
+                                    <hr style="color: purple;">
+                                    <form action="" style="padding: 20px;">
+                                        <label for="id3">Data ID</label>
+                                        <input id="id3" type="number" placeholder="type id here..." min="0">
+                                        <label for="Firstname">Firstname</label>
+                                        <input id="Firstname3" type="text" placeholder="type firstname here...">
+                                        <label for="Lastname">Lastname</label>
+                                        <input id="Lastname3" type="text" placeholder="type lastname here...">
+
+                                        <input id="add-data-button3" type="submit" value="ADD DATA">
+                                    </form>
+
+                                </div>
+                            </div>
+                        </th>
+                    </tr>
+
+                    <tr>
+                        <td>1</td>
+                        <td>Mary</td>
+                        <td>Poppins</td>
+
+                        <td contenteditable="false"
+                            style="border: 0px; background-color: transparent; border-right: 3px  rgb(150, 152, 155) solid;  border-bottom: 3px  rgb(150, 152, 155) solid;">
+                            <button class="table-button">UPDATE</button> <button class="table-button">DELETE</button>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Jack</td>
+                        <td>Sparow</td>
+
+                        <td contenteditable="false"
+                            style="border: 0px; background-color: transparent; border-right: 3px  rgb(150, 152, 155) solid;  border-bottom: 3px  rgb(150, 152, 155) solid;">
+                            <button class="table-button">UPDATE</button> <button class="table-button">DELETE</button>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Alicia</td>
+                        <td>Keys</td>
+
+                        <td contenteditable="false"
+                            style="border: 0px; background-color: transparent; border-right: 3px  rgb(150, 152, 155) solid;  border-bottom: 3px  rgb(150, 152, 155) solid;">
+                            <button class="table-button">UPDATE</button> <button class="table-button">DELETE</button>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Micheal</td>
+                        <td>Obama</td>
+
+                        <td contenteditable="false"
+                            style="border: 0px; background-color: transparent; border-right: 3px  rgb(150, 152, 155) solid;  border-bottom: 3px  rgb(150, 152, 155) solid;">
+                            <button class="table-button">UPDATE</button> <button class="table-button">DELETE</button>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Petros</td>
+                        <td>Papadakis</td>
+
+                        <td contenteditable="false"
+                            style="border: 0px; background-color: transparent; border-right: 3px  rgb(150, 152, 155) solid;  border-bottom: 3px  rgb(150, 152, 155) solid;">
+                            <button class="table-button">UPDATE</button> <button class="table-button">DELETE</button>
+                        </td>
+
+                    </tr>
+                </table>
+
+
+                <hr style="margin-top: 50px;">
+                <h2 class="table-header">Rolling assigments status</h2>
+
+                <table contenteditable="true">
+
+                    <tr contenteditable="false">
+                        <th>ID</th>
+                        <th>FIRSTNAME</th>
+                        <th>LASTNAME</th>
+                        <th>ASSIGMENT</th>
+                        <th>STATUS</th>
+                        <th contenteditable="false"
+                            style=" border: 0px; background-color: transparent; border-right: 3px  rgb(150, 152, 155) solid;  border-TOP: 3px  rgb(150, 152, 155) solid;z-index: 10;">
+                            <div class="dropdown4">
+                                <button onclick="myFunction4()" class="dropbtn"
+                                    style="width: 150px; border-radius: 30px;">ADD NEW</button>
+                                <div id="myDropdown4" class="dropdown-content" style="margin-left: 160px;">
+
+                                    <h2>Add data to table</h2>
+                                    <hr style="color: purple;">
+                                    <form action="" style="padding: 20px;">
+                                        <label for="id4">Data ID</label><br>
+                                        <input id="id4" type="number" placeholder="type id here..." min="0"><br>
+                                        <label for="Firstname4">Firstname</label><br>
+                                        <input id="Firstname4" type="text" placeholder="type firstname here..."><br>
+                                        <label for="Lastname4">Lastname</label><br>
+                                        <input id="Lastname4" type="text" placeholder="type lastname here..."><br>
+                                        <label for="Assigment4">Assigment</label><br>
+                                        <input id="Assigment4" type="text" placeholder="type assigment here..."><br>
+                                        <label for="Status4">Status</label><br>
+                                        <input id="Status4" type="text" placeholder="type status here..."><br>
+
+                                        <input id="add-data-button4" type="submit" value="ADD DATA"><br>
+                                    </form>
+
+                                </div>
+                            </div>
+                        </th>
+                    </tr>
+
+                    <tr>
+                        <td>1</td>
+                        <td>Mary</td>
+                        <td>Poppins</td>
+                        <td>Group project 1</td>
+                        <td>Turned in</td>
+                        <td contenteditable="false"
+                            style="border: 0px; background-color: transparent; border-right: 3px  rgb(150, 152, 155) solid;  border-bottom: 3px  rgb(150, 152, 155) solid;">
+                            <button class="table-button">UPDATE</button> <button class="table-button">DELETE</button>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Jack</td>
+                        <td>Sparow</td>
+                        <td>Group project 1</td>
+                        <td>Not turned in </td>
+                        <td contenteditable="false"
+                            style="border: 0px; background-color: transparent; border-right: 3px  rgb(150, 152, 155) solid;  border-bottom: 3px  rgb(150, 152, 155) solid;">
+                            <button class="table-button">UPDATE</button> <button class="table-button">DELETE</button>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Alicia</td>
+                        <td>Keys</td>
+                        <td>Group project 1</td>
+                        <td>Not turned in </td>
+                        <td contenteditable="false"
+                            style="border: 0px; background-color: transparent; border-right: 3px  rgb(150, 152, 155) solid;  border-bottom: 3px  rgb(150, 152, 155) solid;">
+                            <button class="table-button">UPDATE</button> <button class="table-button">DELETE</button>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Micheal</td>
+                        <td>Obama</td>
+                        <td>Individual project 1</td>
+                        <td>Turned in </td>
+                        <td contenteditable="false"
+                            style="border: 0px; background-color: transparent; border-right: 3px  rgb(150, 152, 155) solid;  border-bottom: 3px  rgb(150, 152, 155) solid;">
+                            <button class="table-button">UPDATE</button> <button class="table-button">DELETE</button>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Petros</td>
+                        <td>Papadakis</td>
+                        <td>Individual project 1</td>
+                        <td>Turned in </td>
+                        <td contenteditable="false"
+                            style="border: 0px; background-color: transparent; border-right: 3px  rgb(150, 152, 155) solid;  border-bottom: 3px  rgb(150, 152, 155) solid;">
+                            <button class="table-button">UPDATE</button> <button class="table-button">DELETE</button>
+                        </td>
+
+                    </tr>
+                </table>
+
+
+
+            </div>
+
+        </div>
+
+
+        <div class="runningcourses" style="position:absolute; clear: both; margin-left: -1500px; margin-top: 20px;">
+
+            <h2 style="color: red;">NOW RUNNING</h2>
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Running Courses</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="../course1.html">CB11 JAVA FULL TIME</a>
+                    <a href="../course2.html">CB11 JAVA PART TIME</a>
+                    <a href="../course3.html">CB11 C# FULL TIME</a>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-left">
+                <h2>A small brief</h2>
+                <p>
+                    Private School University is a private Ivy League research university in Cambridge, Massachusetts.
+                    Established in 1636 and named for its first benefactor, clergyman John Harvard, Harvard is the
+                    oldest institution of higher learning in the United States
+                    and among the most prestigious in the world.
+                </p>
+                <p>The Massachusetts colonial legislature, the General Court, authorized Harvard's founding. In its
+                    early years, Harvard College primarily trained Congregational and Unitarian clergy, although it has
+                    never been formally affiliated with any
+                    denomination. Its curriculum and student body were gradually secularized during the 18th century,
+                    and by the 19th century, Harvard had emerged as the central cultural establishment among Boston
+                    elites. Following the American Civil
+                    War, President Charles William Eliot's long tenure (1869–1909) transformed the college and
+                    affiliated professional schools into a modern research university; Harvard became a founding member
+                    of the Association of American Universities
+                    in 1900. James B. Conant led the university through the Great Depression and World War II; he
+                    liberalized admissions after the war.
+                </p>
+            </div>
+            <div class="footer-middle">
+
+                <h2>Sitemap</h2>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td><a href="">HOME</a></td>
+                            <td><a href="">STUDENTS</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="">STUDY</a></td>
+                            <td><a href="">COURSES</a></td>
+                        </tr>
+
+                        <tr>
+                            <td><a href="">ABOUT US</a></td>
+                            <td><a href="">TRAINERS</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="">CONTACT</a></td>
+                            <td><a href="">ASSIGMENTS</a></td>
+                        </tr>
+
+
+                    </tbody>
+                </table>
+
+            </div>
+            <div class="footer-right">
+                <div class="footer-right-newsletter">
+                    <h2>Newsletter</h2>
+                    <form action="/action_page.php" method="get">
+                        <input type="email" placeholder="...your email here">
+                        <button>Subscribe</button>
+                    </form>
+                </div>
+                <div class="footer-right-socialmedia">
+                    <h2>Follow us</h2>
+                    <table>
+                        <tr>
+                            <td>
+                                <a href="https://www.facebook.com"><img src="img/fb.png" alt="facebook"></a>
+                            </td>
+                            <td>
+                                <a href="https://www.youtube.com"><img src="img/yt.png" alt="youtube"></a>
+                            </td>
+                            <td>
+                                <a href="https://www.linkedin.com"><img src="img/li.png" alt="linkedin"></a>
+                            </td>
+                            <td>
+                                <a href="https://www.twitter.com"><img src="img/tw.png" alt="twitter"></a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="footer-right-copyrights">
+
+                    <hr>
+                    <p>Copyright © 2020 by <a href="mailto:petros@petros.gr"
+                            style="color: white; text-decoration: none;">pmel</a></p>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </footer>
+
+    <script>
+
+  function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+
+        function myFunction1() {
+            document.getElementById("myDropdown1").classList.toggle("show");
+        }
+
+        function myFunction2() {
+            document.getElementById("myDropdown2").classList.toggle("show");
+        }
+
+        function myFunction3() {
+            document.getElementById("myDropdown3").classList.toggle("show");
+        }
+        function myFunction4() {
+            document.getElementById("myDropdown4").classList.toggle("show");
+        }
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,445 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    min-width: 100%;
+    height: 100%;
+    min-height: 100%;
+    background-color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* ===============HEADER CSS=============== */
+
+header {
+    background-color: purple;
+    padding-top: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* box-shadow: 5px 5px 8px grey; */
+    padding-bottom: 15px;
+}
+
+.header-container {
+    width: 1500px;
+}
+
+.header-logo {
+    width: 30%;
+    float: left;
+}
+
+.header-menu {
+    width: 60%;
+    float: right;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.header-mainmenu {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    /* vertical-align: bottom; */
+    min-height: 40%;
+    height: 40%;
+}
+
+.header-mainmenu a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+
+.header-menu a:hover {
+color: orange;
+
+}
+
+.header-menu a:active {
+    color: grey;
+    
+    }
+
+
+.header-secondarymenu {
+    width: 100%;
+    /* vertical-align: top; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-secondarymenu a {
+    text-decoration: none;
+    color: darkgrey;
+    padding-left: 20px;
+    font-size: 1rem;
+}
+
+
+/* ===============MAIN CSS=============== */
+
+main {
+    width: 100%;
+    background-color: rgb(150, 152, 155);
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+}
+
+.main-container {
+    width: 1500px;
+    padding: 15px;
+}
+
+.main-container h2 {
+    color: purple;
+}
+
+.main-container-courses {
+    width: 100%;
+    float: left;
+    clear: both;
+    min-height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.main-container-courses img {
+    max-width: 50%;
+}
+
+.main-container-courses button {
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 50px;
+    color: white;
+    background-color: purple;
+    font-size: 20px;
+    min-height: 35px;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.main-courses-colum {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    float: left;
+    max-width: 20%;
+    padding: 20px;
+    /* height: 500px; */
+    opacity: 80%;
+    background-color: white;
+}
+
+#main-container-aboutus {
+    background-image: url(../img/aboutus.jpg);
+    min-height: 1000px;
+    padding: 20px;
+    background-repeat: no-repeat;
+}
+
+#main-container-contactus {
+    background-image: url(../img/map.jpg);
+    min-height: 1000px;
+    padding: 20px;
+    background-repeat: no-repeat;
+}
+
+
+.main-container-aboutus {
+    color: black;
+    position: static;
+    float: right;
+    width: 400px;
+    margin-top: 300px;
+    margin-right: 150px;
+}
+
+.main-container-aboutus h1 {
+    color: black;
+}
+
+.main-container-aboutus p {
+    color: black;
+    font-size: 1.4rem;
+}
+
+.study {
+    background-color: white;
+    padding: 50px;
+}
+
+.study h1 {
+    background-color: white;
+    font-size: 2.5rem;
+    padding-bottom: 50px;
+}
+
+.study p {
+    text-align: justify;
+}
+
+.table-container {
+    justify-content: center;
+    color: black;
+    padding: 10px;
+   
+}
+
+.table-header{
+    text-align: center;
+}
+
+.table-container table {
+    margin-left: auto;
+    margin-right: auto;
+
+
+    color: black;
+    padding: 10px;
+    border-collapse: collapse;
+    border: 2px black solid;
+}
+
+.table-container th {
+    background-color: grey;
+    color: black;
+    padding: 10px;
+    border-collapse: collapse;
+    border: 2px black solid;
+}
+
+.table-container td {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-collapse: collapse;
+    border: 2px black solid;
+}
+
+
+/* ===============FOOTER CSS=============== */
+
+footer {
+    width: 100%;
+    background-color: rgb(100, 100, 100);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container {
+    width: 1500px;
+    color: white;
+}
+
+.footer-container h2 {
+    color: purple;
+    font-weight: bolder;
+}
+
+.footer-container a {
+    font-style: normal;
+    text-decoration: none;
+    color: white;
+}
+
+.footer-left {
+    width: 45%;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.footer-middle {
+    width: 25%;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.footer-middle a:hover {
+    color: orange;}
+
+.footer-right {
+    width: 25%;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.footer-right form {
+    text-align: right;
+}
+
+.footer-right-socialmedia {
+    padding-top: 10px;
+}
+
+.footer-right-newsletter button {
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 50px;
+    color: white;
+    background-color: purple;
+    font-size: 20px;
+    min-height: 35px;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.footer-right-newsletter input {
+    border: 0px;
+    min-height: 20px;
+    min-width: 350px;
+    border-radius: 50px;
+    padding-bottom: 10px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+ ::placeholder {
+    padding: 20px;
+    font-style: italic;
+    color: grey;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+/* ===============ADD TO TABLE CSS=============== */
+
+
+
+
+.add-data{
+    border: 3px solid orange;
+    background-color: white;
+    border-radius: 30px;
+    width: 200px;
+    padding: 20px;
+    position:absolute;
+    top: 100px;
+    right: 200PX;
+    z-index: 10;
+    box-shadow: 3px 3px 5px grey;
+    font-weight: bold;
+    opacity: 80%;
+    }
+    
+    .add-data h2{
+    color: purple;
+    }
+    
+    
+    #add-data-button,
+    #add-data-button2,
+    #add-data-button3,
+    #add-data-button4 {
+        margin-top: 20px; 
+        background-color: purple;
+        padding: 8px;
+        font-size: 15px;
+        color: white;
+        font-weight: bold;
+        border-radius: 20px;
+       
+    }
+    .add-data ::placeholder{
+font-size: small;
+vertical-align: middle;
+text-align: left;
+font-style: normal;
+    }
+
+    .table-button{
+
+        background-color: white;
+        padding: 5px;
+        border-radius: 10px;
+        color: purple;
+        font-size: 1rem;
+        font-weight: bold;
+        
+    }
+
+   #contactform h1 {
+
+    color: purple;
+   }
+
+   #contactform ::placeholder{
+font-size: medium;
+   }
+
+   #contactform  {
+font-size: large;
+font-style: normal;
+padding: 20px;
+   }
+
+
+   /*==========================*/
+
+   .dropbtn {
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 300px;
+    border: 0px;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: orange;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    
+  }
+  
+  .dropdown a:hover {background-color: #ddd; }
+  
+  .show {display: block;}
+
+  .update-delete-buttons{
+    border:3px  rgb(150, 152, 155) solid; 
+    background-color: rgb(150, 152, 155); 
+    border-right: 3px  rgb(150, 152, 155) solid;  
+    border-bottom: 3px  rgb(150, 152, 155) solid;
+    border-top: 3px  rgb(150, 152, 155) solid;
+  }
